@@ -1,0 +1,48 @@
+c:\UnityBase\UB.exe 4.0.0.0 (2018-02-22 16:30:16)Host=VLADYSLAV-ÐŸÐš User=Vladyslav CPU=4*9-6-17665:FFFBEBBFBFFBFA7FAB27000000 OS=11.1=6.1.7601 Wow64=1 Freq=2533251Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Vladyslav\AppData\Roaming	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=VLADYSLAV-Š	ComSpec=C:\Windows\system32\cmd.exe	ESET_OPTIONS=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               	FP_NO_HOST_CHECK=NO	HOMEDRIVE=C:	HOMEPATH=\Users\Vladyslav	LOCALAPPDATA=C:\Users\Vladyslav\AppData\Local	LOGONSERVER=\\VLADYSLAV-Š	MARRIOTT_SINCLAIR_TYCHE_EXECUTABLE_LOCATION=C:\Program Files\Marriott Sinclair\Tyche	MpConfig_ProductAppDataPath=C:\ProgramData\Microsoft\Windows Defender	MpConfig_ProductCodeName=AntiSpyware	MpConfig_ProductPath=C:\Program Files\Windows Defender	MpConfig_ProductUserAppDataPath=C:\Users\Vladyslav\AppData\Local\Microsoft\Windows Defender	MpConfig_ReportingGUID=3E160160-B83E-48DD-A7B8-47794ED2628D	NUMBER_OF_PROCESSORS=4	OS=Windows_NT	Path=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\nodejs\;c:\UnityBase;C:\Users\Vladyslav\AppData\Roaming\npm	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=4501	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PROMPT=$P$G	PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\VLADYS~1\AppData\Local\Temp	TMP=C:\Users\VLADYS~1\AppData\Local\Temp	TYCHE_INSTALL_PATH=C:\Program Files\Marriott Sinclair\Tyche	UB_HOME=c:\UnityBase	USERDOMAIN=Vladyslav-Š	USERNAME=Vladyslav	USERPROFILE=C:\Users\Vladyslav	windir=C:\Windows	windows_tracing_flags=3	windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.logTubLog 1.18.3488 FTS3 2018-06-05T21:54:2220180605 21542261  ! warn  WebSocket support are disabled because WSServer.host = '' in config
+20180605 21542261  !  +    ubServer.TubServer(025EECA0).008863DB 
+20180605 21542261  !  +    	Init app
+20180605 21542261  ! srvr  		FTS is disabled
+20180605 21542261  ! info  		Check blob store "avatars" folder "C:\Users\Vladyslav\Downloads\unity_base-master\avatars\": folder exists
+20180605 21542261  ! info  		Check blob store "attach" folder "C:\Users\Vladyslav\Downloads\unity_base-master\docs\attach\": folder exists
+20180605 21542261  !  -    	00.000.888
+20180605 21542261  !  +    	Folder C:\Users\Vladyslav\Downloads\unity_base-master\node_modules\@unitybase\ub\ modified
+20180605 21542261  !  +    		ubCommonClasses.TubThreadSafeCache(025ECB58).removeStartsWith
+20180605 21542261  !  -    		00.000.002
+20180605 21542261  !  -    	00.000.009
+20180605 21542261  !  +    	ubApp.TubApp(02543EB0).init
+20180605 21542261  ! srvr  		Mime converters are disabled
+20180605 21542261  !  -    	00.000.002
+20180605 21542261  ! srvr  	Enable zip compresison
+20180605 21542261  ! srvr  	Send initialization request to http://localhost:888/init
+20180605 21542261  "  +    InitializationRequest
+20180605 21542261  "  +    	init
+20180605 21542261  " srvr  		Start application intialization...
+20180605 21542261  " info  		Loading domain...
+20180605 21542261  " warn  		Model "UB" configured to use invalid path "C:\Users\Vladyslav\Downloads\unity_base-master\node_modules\@unitybase\ub\". Model is not loaded
+20180605 21542261  " srvr  		The domain loaded successfully with 0 entities
+20180605 21542261  " debug 		Create new JavaScript Engine for thread 9152
+20180605 21542302  "  +    		008C234A 
+20180605 21542302  " warn  			All API method are allowed for Everyone, because "uba_els" entity not found in domain
+20180605 21542302  " warn  			ELS: rule "ALLOW_ALL_NO_ELS_ENTITY" does not match any method. Ignored
+20180605 21542302  "  -    		00.001.173
+20180605 21542302  " warn  		Method getAppInfo not found in application but set in allowedAppMethods for user
+20180605 21542302  " warn  		Method models not found in application but set in allowedAppMethods for user
+20180605 21542302  " warn  		Method getDomainInfo not found in application but set in allowedAppMethods for user
+20180605 21542302  " warn  		Method changePassword not found in application but set in allowedAppMethods for user
+20180605 21542302  " auth  		New session admin/704246981 created at 127.0.0.1/-288230374541098103 using Mozilla/5.0 (Windows; mORMot 1.18 TWinHTTP)
+20180605 21542302  " warn  		Method getAppInfo not found in application but set in allowedAppMethods for user
+20180605 21542302  " warn  		Method models not found in application but set in allowedAppMethods for user
+20180605 21542302  " warn  		Method getDomainInfo not found in application but set in allowedAppMethods for user
+20180605 21542302  " auth  		New session anonymous/704246980 created at 127.0.0.1/-288230374541098103 using Mozilla/5.0 (Windows; mORMot 1.18 TWinHTTP)
+20180605 21542302  "  -    	00.057.126
+20180605 21542302  "  -    00.057.142
+20180605 21542302  ! srvr  	ubServer.TubServer(025EECA0) {"THttpApiServer(0250A960)":{"Cloned":false,"RegisteredUrl":"http://+:888/","HTTPQueueLength":1000,"MaxBandwidth":-1,"MaxConnections":-1,"APIVersion":"HTTP API 2.0","ServerName":"UnityBase","ProcessName":""}} initialized
+20180605 21542302  !  -    00.062.775
+20180605 21542302  "  +    getAppInfo
+20180605 21542302  " http  	127.0.0.1 -> GET getAppInfo
+20180605 21542302  " call  	endpoint statics
+20180605 21542302  " warn  	Invalid URI while static request getAppInfo
+20180605 21542302  " ERROR 	GET getAppInfo ERROR=404 (Not Found)
+20180605 21542302  "  -    00.001.393
+20180605 21542302  ! EXC   C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\node_modules\\@unitybase\\base\\UBConnection.js:426\r\rError: HTTP communication error: \"404: Not Found\" during request to: /getAppInfo\nUBConnection.prototype.xhr@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\node_modules\\@unitybase\\base\\UBConnection.js:426:13\nUBConnection.prototype.get@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\node_modules\\@unitybase\\base\\UBConnection.js:444:10\nUBConnection@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\node_modules\\@unitybase\\base\\UBConnection.js:91:13\nestablishConnectionFromCmdLineAttributes@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\node_modules\\@unitybase\\base\\argv.js:169:41\ninitDB@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\lib\\initDB.js:90:15\n@C:\\Users\\Vladyslav\\AppData\\Roaming\\npm\\node_modules\\@unitybase\\ubcli\\bin\\ubcli.js:20:40\nModule.prototype._compile@module.js:579:16\nModule._extensions[\".js\"]@module.js:588:3\nModule.prototype.load@module.js:496:3\ntryModuleLoad@module.js:455:5\nModule._load@module.js:447:3\nModule.prototype.require@module.js:506:10\n@shell.js:1:16\n
+20180605 21542304  ! info  ubApp.TubApp(02543EB0) {   "ClientsCurrent": 0,   "ClientsMax": 0,   "Invalid": 1,   "Responses": 0,   "Modified": 0,   "IncomingBytes": 227,   "OutcomingBytes": 70,   "OutcomingFiles": 0,   "ServiceCalls": 1,   "ProcessTime": "1.39ms"  }
